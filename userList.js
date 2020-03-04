@@ -37,7 +37,7 @@ function verifyUsername(){
             var btn = document.createElement("button")
             btn.setAttribute("class", "devs")
             btn.setAttribute("id", verifiedUser.login)
-            btn.setAttribute("onclick", "deleteUsers(id)")
+            btn.setAttribute("onclick", "accessUser(id)")
 
             div.appendChild(btn)
 
@@ -75,8 +75,6 @@ function verifyUsername(){
         });
     }
 }
-function deleteUsers(id){
-    var btn = document.getElementById(id)
-
+function accessUser(id){
     window.open("https://github.com/"+id, '_blank')
 }
