@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GitHub User Vierifier</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="userList.js"></script>
+</head>
+<body>
+    <div id="center">
+        <h1>GitHub User Verifier</h1>
+        <div id='input' >
+            <input type="text" id="username" placeholder="Username"><br/><br/>
+        </div>
+        <div id="principal">
+            <button id="insere" onclick="verifyUsername()">
+                Verify Username
+            </button><br/><br/>
+        </div>
+        <div id="lista">
+        </div><br/>
+    </div>
+    <footer>
+        <p>&copy; Daniel Formigoni</p><br/>
+    </footer>
+</body>
+</html>

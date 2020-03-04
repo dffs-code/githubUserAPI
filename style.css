@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway','Roboto', sans-serif;
+    background-image: linear-gradient(to right, #2c3e50, #3498db);
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+}
+div#lista{
+    text-align: center;
+}
+button.devs{
+    font-family: 'Raleway','Roboto', sans-serif;
+    width: 300px;
+    height: auto;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: transparent;
+    border-width: thin;
+    box-shadow: unset;
+    font-weight: 800;
+}
+li{
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+}
+#username{
+    font-family: 'Raleway','Roboto', sans-serif;
+    border-style: solid;
+    border-color: rgba(70, 70, 70, 0.527);
+    border-width: thin;
+    border-radius: 6px;
+    width: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+footer{
+    text-align: center;
+    color: black;
+}
+div#input, #principal{
+    text-align: center;
+}
+#insere{
+    font-family: 'Raleway','Roboto', sans-serif;
+    width: auto;
+    height: auto;
+    background-color: rgb(200, 245, 211);
+    border-radius: 8px;
+    border-color: rgba(70, 70, 70, 0.527);
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    font-weight: 800;
+}
+div#center{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    width: 300px;
+    height: auto;
+}
