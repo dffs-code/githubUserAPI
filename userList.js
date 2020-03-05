@@ -12,7 +12,7 @@ function verifyUsername(){
             console.log(response)
             var verifiedUser = response.data;
 
-            /* DATA RESPONSE
+            /* RESPONSE DATA
             login                       type
             id                          site_admin
             node_id                     name
